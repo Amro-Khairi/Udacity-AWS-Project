@@ -27,7 +27,7 @@
 
 - s3 image
 
-  ![alt text](screenshots/S3_Files.png 'AWS S3')
+  ![alt text](screenshots/S3_files.png 'AWS S3')
 
 ### AWS Elastic Beanstalk (EB)
 
@@ -60,7 +60,7 @@
 1. Able to run install and build for both backend and front-end applications
 2. Able to deploy for both backend and front-end applications
 
-![alt text](screenshots/CircleCi_Workflows.png 'CircleCI')
+![alt text](screenshots/CircleCi_Runs.png 'CircleCI')
 - 
 ![alt text](screenshots/CircleCi_Build.png 'CircleCI')
 - 
