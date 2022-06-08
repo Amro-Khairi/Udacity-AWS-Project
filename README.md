@@ -72,6 +72,6 @@
 
 ## Documentation
 
-Documentation about the architecture, infrastructure description, app dependencies, and the pipeline process are found inside the [docs](https://github.com/aml-fakhry/aws-deployment-process-project/tree/master/docs) folder.
+Documentation about the architecture, infrastructure description, app dependencies, and the pipeline process are found inside the [docs](https://github.com/Amro-Khairi/Udacity-AWS-Project/tree/main/docs) folder.
 
 ---
