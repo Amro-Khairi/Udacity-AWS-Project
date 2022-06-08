@@ -27,7 +27,7 @@
 
 - s3 image
 
-  ![alt text](screenshots/S3_files.png 'AWS S3')
+  ![alt text](screenshots/S3%20_files.png 'AWS S3')
 
 ### AWS Elastic Beanstalk (EB)
 
