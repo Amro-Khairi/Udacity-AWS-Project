@@ -75,3 +75,6 @@
 Documentation about the architecture, infrastructure description, app dependencies, and the pipeline process are found inside the [docs](https://github.com/Amro-Khairi/Udacity-AWS-Project/tree/main/docs) folder.
 
 ---
+
+
+Changes added to testing branch to test the CircleCi
