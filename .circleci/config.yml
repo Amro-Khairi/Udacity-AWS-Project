@@ -63,7 +63,11 @@ jobs:
 workflows:
   udagram:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                - main
       - hold:
           filters:
             branches:
