@@ -11,6 +11,6 @@ POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
 URL=$URL \
 JWT_SECRET=$JWT_SECRET
 
-eb deploy
+eb deploy udacity-aws-project
 
 #Here, this file gets all the environment variables from circleCi and it will pass them to elastic beanstalk
