@@ -18,12 +18,12 @@
     "dev": "npx ts-node-dev --respawn --transpile-only ./src/server.ts",
     "prod": "npx tsc && node ./www/server.js",
     "clean": "rm -rf www/ || true",
-    "deploy": "npm run build && eb deploy udacity-aws-project --profile default",
+    "deploy": "npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
     "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp -R .elasticbeanstalk www/.elasticbeanstalk && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Hello World'"
   },
   "keywords": [],
-  "author": "Gabriel Ruttner",
+  "author": "Amro Khairi",
   "license": "ISC",
   "dependencies": {
     "@types/bcryptjs": "2.4.2",
